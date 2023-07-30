@@ -5,20 +5,20 @@
 <mapper namespace="com.yidiansishiyi.searchCenter.mapper.UserMapper">
     <resultMap id="BaseResultMap" type="com.yidiansishiyi.searchCenter.model.entity.User">
         <id property="id" column="id" jdbcType="BIGINT"/>
-        <result property="unionId" column="unionId" jdbcType="VARCHAR"/>
-        <result property="mpOpenId" column="mpOpenId" jdbcType="VARCHAR"/>
+<!--        <result property="unionId" column="unionId" jdbcType="VARCHAR"/>-->
+<!--        <result property="mpOpenId" column="mpOpenId" jdbcType="VARCHAR"/>-->
         <result property="userName" column="userName" jdbcType="VARCHAR"/>
         <result property="userAvatar" column="userAvatar" jdbcType="VARCHAR"/>
-        <result property="userProfile" column="userProfile" jdbcType="VARCHAR"/>
+<!--        <result property="userProfile" column="userProfile" jdbcType="VARCHAR"/>-->
         <result property="userRole" column="userRole" jdbcType="VARCHAR"/>
         <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
         <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
         <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
     </resultMap>
-
+<!--    unionId,mpOpenId,userProfile,-->
     <sql id="Base_Column_List">
-        id,unionId,mpOpenId,
-        userName,userAvatar,userProfile,
+        id,
+        userName,userAvatar,
         userRole,createTime,updateTime,isDelete
     </sql>
 </mapper>

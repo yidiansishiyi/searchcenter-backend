@@ -23,7 +23,7 @@ public class Knife4jConfig {
     public Docket defaultApi2() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
-                        .title("青鸟搜索接口管理")
+                        .title("searchCenter 搜索中台")
                         .description("qingsou")
                         .version("1.0")
 
@@ -31,7 +31,7 @@ public class Knife4jConfig {
                         ">\n" +
                         "> 本项目为聚合搜索平台,目前支持数据源为帖子,存储源为服务器初始数据从网络上抓取,图片从必应接口获取,用户存储源为服务器,且具有良好的扩展性,为初初始版本,搜索引擎 es 的引入正在优化中,前端正在开发中。\n" +
                         "\n" +
-                        "**Author:** sanqi\n" +
+                        "**Author:** 一点四十一\n" +
                         "\n" +
                         "**Email:** [nuomibaicha@163.com](nuomibaicha@163.com)")
                 .termsOfServiceUrl("124.222.184.3")
