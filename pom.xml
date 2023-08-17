@@ -10,9 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yidiansishiyi</groupId>
-    <artifactId>searchCenter-backend</artifactId>
+    <artifactId>searchcenter-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>searchCenter-backend</name>
+    <name>searchcenter-backend</name>
     <properties>
         <java.version>1.8</java.version>
     </properties>
