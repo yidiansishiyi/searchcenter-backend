@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yidiansishiyi.searchCenter.mapper.PostThumbMapper">
+<mapper namespace="com.yidiansishiyi.searchcenter.mapper.PostThumbMapper">
 
-    <resultMap id="BaseResultMap" type="com.yidiansishiyi.searchCenter.model.entity.PostThumb">
+    <resultMap id="BaseResultMap" type="com.yidiansishiyi.searchcenter.model.entity.PostThumb">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="postId" column="postId" jdbcType="BIGINT"/>
             <result property="userId" column="userId" jdbcType="BIGINT"/>
