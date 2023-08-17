@@ -130,15 +130,6 @@ public class PostController {
         boolean result = postService.updateById(post);
         return ResultUtils.success(result);
     }
-    @RequestMapping(value = "/")
-    @ResponseBody
-    public Map<String, Object> update(@RequestParam Map<String,Object> reqMap){
-        HashMap<String, Object> returnMap = new HashMap<>();
-        new LinkedList<>()
-
-
-        return returnMap;
-    }
 
 
     /**
